@@ -4,7 +4,7 @@
     $host = 'localhost';
     $dbname = 'nisrating';
     $username = 'root';
-    $password = 'root';
+    $password = '';
 
     R::setup('mysql:host='.$host.';dbname='.$dbname,$username,$password);
 

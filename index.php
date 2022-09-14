@@ -145,26 +145,11 @@
       <!-- Footer -->
       <footer class="footer">
         <div class="row align-items-center justify-content-xl-between">
-          <div class="col-xl-4">
-          </div>
-          <div class="col-xl-4">
+          <div class="col-xl-12">
             <div class="copyright text-center text-xl-center text-dark">
-              &copy; <?php echo date('Y'); ?>
-              <a href="auth/login.php" class="nav-link text-dark">Войти</a>
+                &copy; <?php echo date('Y'); ?>
+                <a href="auth/login.php" class="nav-link text-dark">Войти</a>
             </div>
-            
-            
-          </div>
-          <div class="col-xl-4 row">
-          <div class="col-4 MyDiv"><img width="17px" src="/faq.svg"></div>
-            <div class="help col-8 hide shadow-lg p-3 mb-5 bg-white rounded">
-            <div class="my-1 pr-4">
-              Открыть  <a href="/faq.php">FAQ/ЧЗВ </a>
-            </div>
-            <div class="my-1 pr-4"> Открыть  <a href="/user_guide.php">Руководство пользователя/User guide</a> </div>
-            <div class="my-1 pr-4"> Открыть  <a href="/error_guide.php">Руководство по частым ошибкам/Common error guide</a> </div>
-            </div>
-          </div>
         </div>
       </footer>
     </div>
